@@ -1,0 +1,42 @@
+{
+  "name": "react-collapsible-mixin",
+  "version": "1.0.0-pre",
+  "description": "React component mixin to enable Bootstrap style collapse elements",
+  "main": "react-collapsible-mixin.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "keywords": [
+    "react-component",
+    "react",
+    "mixin",
+    "collapsible",
+    "collapsable",
+    "expand",
+    "show",
+    "hide"
+  ],
+  "author": "David G. Hong",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hongymagic/react-collapsible-mixin.git"
+  },
+  "bugs": {
+    "mail": "davidhong.code@gmail.com",
+    "url": "https://github.com/hongymagic/react-collapsible-mixin/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.2.2",
+    "react-tools": "^0.12.2"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "/node_modules/react"
+    ]
+  }
+}
