@@ -1,6 +1,6 @@
 {
   "name": "react-collapsible-mixin",
-  "version": "1.0.0-pre",
+  "version": "1.0.0-pre.1",
   "description": "React component mixin to enable Bootstrap style collapse elements",
   "main": "react-collapsible-mixin.js",
   "scripts": {

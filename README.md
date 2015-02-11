@@ -67,3 +67,8 @@ optionally pass in defaults object to set extra class names.
 ##### \_onToggleCollapsible
 
 Event handler which you can attach to collapsers.
+
+### Remembering state
+
+Use it with existing `LocalStorageMixin` to remember the state of the
+collapsible element.
