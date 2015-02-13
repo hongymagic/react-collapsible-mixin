@@ -31,12 +31,14 @@
   },
   "devDependencies": {
     "jest-cli": "^0.2.2",
+    "object-assign": "^2.0.0",
     "react-tools": "^0.12.2"
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/preprocessor.js",
     "unmockedModulePathPatterns": [
-      "/node_modules/react"
+      "/node_modules/react",
+	  "/node_modules/object-assign"
     ]
   }
 }
